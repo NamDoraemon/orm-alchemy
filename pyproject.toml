@@ -10,7 +10,7 @@ packages = [
 
 [tool.poetry.dependencies]
 python = "^3.9.2"
-sqlalchemy = "^s1.4.31"
+sqlalchemy = "^1.4.31"
 
 [tool.poetry.dev-dependencies]
 black = "^21.9b0"
