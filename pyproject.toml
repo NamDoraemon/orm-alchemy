@@ -3,9 +3,13 @@ name = "orm-alchemy"
 version = "0.1.0"
 description = ""
 authors = ["NamTH <namth2302@gmail.com>"]
+packages = [
+    { include = "orm-alchemy" },
+    { include = "orm-alchemy/**/*.py" },
+]
 
 [tool.poetry.dependencies]
-python = "^3.6.2"
+python = "^3.9.2"
 
 [tool.poetry.dev-dependencies]
 black = "^21.9b0"
