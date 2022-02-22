@@ -4,8 +4,8 @@ version = "0.1.0"
 description = ""
 authors = ["NamTH <namth2302@gmail.com>"]
 packages = [
-    { include = "orm-alchemy" },
-    { include = "orm-alchemy/**/*.py" },
+    { include = "orm_alchemy" },
+    { include = "orm_alchemy/**/*.py" },
 ]
 
 [tool.poetry.dependencies]
