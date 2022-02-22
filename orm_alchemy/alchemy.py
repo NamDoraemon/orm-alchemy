@@ -38,7 +38,7 @@ utcnow = arrow.utcnow
 
 
 def _create_scoped_session(db, query_cls):
-    session = sessionmaker(autoflush=False, autocommit=True,
+    session = sessionmaker(autoflush=False, autocommit=False,
                            bind=db.engine, query_cls=query_cls)
     return scoped_session(session)
 
