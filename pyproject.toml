@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "orm-alchemy"
-version = "0.1.10"
+version = "0.1.14"
 description = ""
 authors = ["NamTH <namth2302@gmail.com>"]
 packages = [
